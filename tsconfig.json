@@ -19,7 +19,21 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@monorepo-test/core-domains/customer-tenant-management": [
+        "libs/core-domains/customer-tenant-management/src/index.ts"
+      ],
+      "@monorepo-test/core-domains/customer-tenant-management/domain": [
+        "libs/core-domains/customer-tenant-management/domain/src/index.ts"
+      ],
+      "@monorepo-test/domains/device-mgmt": [
+        "libs/domains/device-mgmt/src/index.ts"
+      ],
+      "@monorepo-test/domains/device-mgmt/domain": [
+        "libs/domains/device-mgmt/domain/src/index.ts"
+      ]
+    }
   },
   "files": [],
   "include": [],
